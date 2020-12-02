@@ -4,5 +4,38 @@
 "layout/layout",
 "components/components";
 
+.u-clearfix::before,
+.u-clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.u-clearfix::after {
+    clear: both;
+}
 
 // font-family: 'Roboto', sans-serif;
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+
+}
+
+nav {
+    background-color: $greedy-green;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    align-self: right;
+}
+
+.logo {
+    display: inline;
+    height: 100%;
+}

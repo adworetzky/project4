@@ -1,1 +1,1 @@
-.u-list-reset{list-style:none;margin-top:0;margin-bottom:0;padding-left:0}*{box-sizing:border-box}
+.u-list-reset{list-style:none;margin-top:0;margin-bottom:0;padding-left:0}*{box-sizing:border-box}.u-clearfix::before,.u-clearfix::after{content:" ";display:table}.u-clearfix::after{clear:both}body{width:1200px;margin:0 auto;padding:20px;font-family:"Roboto",sans-serif;background-color:#fff}nav{background-color:#03b37c;width:100%}.button{display:inline-block;position:relative;align-self:right}.logo{display:inline;height:100%}
