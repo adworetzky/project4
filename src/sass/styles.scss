@@ -26,34 +26,29 @@ body {
 
 nav {
     background-color: $greedy-green;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    min-width: 342px;
-    text-align: right;
+    display: grid;
     width: 100%;
-}
-
-.button {
-    grid-area: menu-button;
-    display: inline-block;
-    right: 20px;
-    
+    margin: 0;
+    grid-template-columns: 20% 1fr 10%;
+    grid-template-rows: none;
+    grid-template-areas:
+        'logo nav-buttons menu-button'
 }
 
 .logo {
     grid-area: logo;
-    display: inline-block;
     align-self: left;
     height: 100%;
 }
 
-.gridcontainer {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1fr;
-    grid-template-areas:
-        'logo firsttitle menu-button'
+.nav-buttons{
+    grid-area: nav-buttons;
+    visibility: hidden;
+}
 
+
+.button {
+    grid-area: menu-button;
+    width:5px;
+    
 }
