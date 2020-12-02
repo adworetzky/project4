@@ -74,7 +74,7 @@ nav {
     background-image: url("https://cdn.glitch.com/c0e9f49e-d413-41e8-bfbf-b48a0b1c3f14%2FBook%20Stock.png?v=1605806687072");
     width: 100%;
     height: 100%;
- 
+
 }
 
 .banner-img {
@@ -91,13 +91,22 @@ nav {
     margin: 0;
 }
 
-.slider-img{
+.slider-img {
     display: inline;
     width: 100px;
-    margin: 9% 1% 2% ;
+    margin: 9% 1% 2%;
 }
 
 .subheading {
     margin: 0;
     text-transform: uppercase;
+}
+
+.info-banner {
+    margin: 1% 5% 5%;
+}
+
+.location-wrapper {
+    background-color: $greedy-green;
+    color: $greedy-white;
 }
