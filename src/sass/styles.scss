@@ -17,11 +17,19 @@
 // font-family: 'Roboto', sans-serif;
 body {
     margin: 0 auto;
-
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
 
 }
+h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
 
 nav {
     background-color: $greedy-green;
@@ -52,13 +60,13 @@ nav {
 .button {
     grid-area: menu-button;
     max-height: 100%;
-    
+
 }
 
 .icons{
-    visibility: hidden;
+    display: none;
 }
 
 .banner-img{
-
+width: 100%;
 }
