@@ -108,5 +108,22 @@ nav {
 
 .location-wrapper {
     background-color: $greedy-green;
-    color: $greedy-white;
+    padding: 5%;
+}
+
+.location-card{
+background-color: $greedy-white;
+margin:0 auto 2%;
+width: 60%;
+padding: 10px;
+border-radius: 5%;
+}
+
+.schedule-button{
+margin: auto;
+padding: 2% 0;
+text-align: center;
+background-color: $greedy-green;
+color: $greedy-white;
+
 }
