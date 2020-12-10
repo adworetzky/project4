@@ -103,7 +103,7 @@ nav {
 }
 
 .info-banner {
-    margin: 1% 5% 5%;
+    margin: 1% auto 5%;
     width: 70%;
 }
 
@@ -112,32 +112,55 @@ nav {
     padding: 5%;
 }
 
-.location-card{
-background-color: $greedy-white;
-margin:0 auto 2%;
-width: 60%;
-padding: 10px;
-border-radius: 5%;
+.location-card {
+    background-color: $greedy-white;
+    margin: 0 auto 2%;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5%;
 }
 
-.schedule-button{
-margin: auto;
-padding: 2% 0;
-text-align: center;
-background-color: $greedy-green;
-color: $greedy-white;
-border-radius: 5px;
+.schedule-button {
+    margin: auto;
+    padding: 2% 0;
+    text-align: center;
+    background-color: $greedy-green;
+    color: $greedy-white;
+    border-radius: 5px;
 }
 
 .location-card-info-text {
-    margin: 0 0 2% ;
+    margin: 0 0 2%;
 }
 
 .info-banner-text {
     font-weight: 700;
-    font-size: 20px;   
+    font-size: 20px;
+    margin: 0 auto;
 }
 
-.mailto-link{
+.mailto-link {
     color: $greedy-green;
+}
+
+footer {
+    background-color: $greedy-green;
+    color: $greedy-white;
+    padding: 5%;
+}
+
+.footer-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-location-wrapper {
+    text-align: center;
+}
+
+.icon-wrapper {
+    margin: 5% auto;
+    text-align: center;
 }
