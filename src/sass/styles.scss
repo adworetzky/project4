@@ -104,6 +104,7 @@ nav {
 
 .info-banner {
     margin: 1% 5% 5%;
+    width: 70%;
 }
 
 .location-wrapper {
@@ -125,5 +126,18 @@ padding: 2% 0;
 text-align: center;
 background-color: $greedy-green;
 color: $greedy-white;
+border-radius: 5px;
+}
 
+.location-card-info-text {
+    margin: 0 0 2% ;
+}
+
+.info-banner-text {
+    font-weight: 700;
+    font-size: 20px;   
+}
+
+.mailto-link{
+    color: $greedy-green;
 }
