@@ -110,12 +110,14 @@ nav {
 .location-wrapper {
     background-color: $greedy-green;
     padding: 5%;
+    text-align: center;
 }
 
 .location-card {
+    display: inline-block; 
     background-color: $greedy-white;
     margin: 0 auto 2%;
-    width: 60%;
+    width: 240px;
     padding: 10px;
     border-radius: 5%;
 }
@@ -136,14 +138,14 @@ nav {
 .info-banner-text {
     font-weight: 700;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 
 .mailto-link {
     color: $greedy-green;
 }
 
-footer {
+.site-footer {
     background-color: $greedy-green;
     color: $greedy-white;
     padding: 5%;
