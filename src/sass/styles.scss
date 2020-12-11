@@ -192,11 +192,13 @@ nav {
     .u-button-reset {
         visibility: hidden;
     }
-
+.icon-wrapper{
+    grid-area: menu-button;
+}
     .icons {
-        grid-area: menu-button;
+        // grid-area: menu-button;
         display: inline;
-        align-self: center;
+        // align-self: center;
     }
 
 }
