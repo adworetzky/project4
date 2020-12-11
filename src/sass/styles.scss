@@ -19,6 +19,8 @@ body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
+    min-width: 480px;
+    max-width: 1200px;
 
 }
 
@@ -168,30 +170,33 @@ nav {
     text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 670px) {
 
     .nav-buttons {
         grid-area: nav-buttons;
         visibility: visible;
         list-style-type: none;
     }
-    .nav-button-link{
+
+    .nav-button-link {
         display: inline;
         text-decoration: none;
         color: $greedy-white;
     }
-    .nav-button-li{
-        display:inline-block;
+
+    .nav-button-li {
+        display: inline-block;
         margin: 0 3% 0;
     }
 
     .u-button-reset {
-     visibility: hidden;
+        visibility: hidden;
     }
 
     .icons {
-        grid-area: ;
+        grid-area: menu-button;
         display: inline;
+        align-self: center;
     }
 
 }
