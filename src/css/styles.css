@@ -1,1 +1,17 @@
-.u-list-reset{list-style:none;margin-top:0;margin-bottom:0;padding-left:0}*{box-sizing:border-box}.u-clearfix::before,.u-clearfix::after{content:" ";display:table}.u-clearfix::after{clear:both}body{margin:0 auto;font-family:"Roboto",sans-serif;background-color:#fff}h2{font-weight:700;font-size:24px}p{font-weight:400;font-size:14px;margin:0}nav{background-color:#03b37c;display:grid;width:100%;height:100%;margin:0;grid-template-columns:30% 1fr 20%;grid-template-areas:"logo nav-buttons menu-button"}.logo{display:block;grid-area:logo;align-self:left;height:100%;max-height:100%}.nav-buttons{grid-area:nav-buttons;visibility:hidden}.u-button-reset{grid-area:menu-button;align-self:center;max-height:50px}.icons{display:none}.slider-banner{background-image:url("https://cdn.glitch.com/c0e9f49e-d413-41e8-bfbf-b48a0b1c3f14%2FBook%20Stock.png?v=1605806687072");width:100%;height:100%}.banner-img{width:100%}.title-over-img{font-weight:900;font-size:36px;position:absolute;color:#fff;top:110px;left:10px;margin:0}.slider-img{display:inline;width:100px;margin:9% 1% 2%}.subheading{margin:0;text-transform:uppercase}.info-banner{margin:1% auto 1%;padding:1% 0;width:70%}.location-wrapper{background-color:#03b37c;padding:5%;text-align:center}.location-card{display:inline-block;background-color:#fff;margin:0 5% 5%;width:240px;padding:10px;border-radius:5%}.schedule-button{margin:auto;padding:2% 0;text-align:center;background-color:#03b37c;color:#fff;border-radius:5px}.location-card-info-text{margin:0 0 2%}.info-banner-text{font-weight:700;font-size:20px;margin:5% auto}.mailto-link{color:#03b37c}.site-footer{background-color:#03b37c;color:#fff;padding:5%}.footer-nav{list-style-type:none;margin:0;padding:0;text-align:center}.footer-location-wrapper{text-align:center}.icon-wrapper{margin:5% auto;text-align:center}
+/* Error: Expected expression.
+ *     ,
+ * 193 |         grid-area: ;
+ *     |                    ^
+ *     '
+ *   src/sass/styles.scss 193:20  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a     \2577 \a 193 \2502          grid-area: ;\a     \2502                     ^\a     \2575 \a   src/sass/styles.scss 193:20  root stylesheet";
+}

@@ -167,3 +167,31 @@ nav {
     margin: 5% auto;
     text-align: center;
 }
+
+@media (min-width: 800px) {
+
+    .nav-buttons {
+        grid-area: nav-buttons;
+        visibility: visible;
+        list-style-type: none;
+    }
+    .nav-button-link{
+        display: inline;
+        text-decoration: none;
+        color: $greedy-white;
+    }
+    .nav-button-li{
+        display:inline-block;
+        margin: 0 3% 0;
+    }
+
+    .u-button-reset {
+     visibility: hidden;
+    }
+
+    .icons {
+        grid-area: ;
+        display: inline;
+    }
+
+}
