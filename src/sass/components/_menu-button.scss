@@ -1,0 +1,23 @@
+.menu-button {
+
+
+  // Effects for viewports LESS THAN 670px wide
+  @media (max-width: 669px) {
+
+    // If the JS does not load, do not display the button
+    &:not([aria-expanded]) {
+      display: none;
+    }
+
+    // Do not display the menu when the button has NOT been clicked
+    &[aria-expanded="false"]+ul {
+      display: none;
+    }
+  }
+
+  // Effects for viewports 670px or MORE
+  @media (min-width: 670px) {
+    // Do not display the button at this width
+    display: none;
+  }
+}
