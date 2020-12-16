@@ -198,6 +198,7 @@ nav {
     background-color: $greedy-green;
     color: $greedy-white;
     padding: 5%;
+    align-content: center;
 }
 
 .footer-nav {
@@ -269,7 +270,8 @@ nav {
 
 @media (min-width:900px) {
     .footer-wrapper {
-        margin: 0 auto;
+        text-align: center;
+        vertical-align: middle;
     }
 
     .footer-nav {
@@ -283,9 +285,8 @@ nav {
     }
 
     .footer-icon-wrapper {
-        display: inline-block;
-        margin: 0 2%;
-        vertical-align: middle;
+        display: block;
+        margin: 4% 2%;
     }
 }
 
