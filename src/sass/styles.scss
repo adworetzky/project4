@@ -332,3 +332,58 @@ nav {
     }
 
 }
+
+// bookclub specific sass
+
+.product-card {
+    width: 15%;
+    padding: 1% 1%;
+    background-color: #03B37C;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.book-title {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.book-img {
+    max-height: 100%;
+    max-width: 100%;
+    box-shadow: 5px 5px #ffffff;
+}
+
+.shop-button-link {
+    text-decoration: none;
+}
+
+.shop-button-wrapper {}
+
+.buy-button {
+    display: inline-block;
+    width: 40%;
+    padding: 2px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.buy-button:hover {
+    background-color: #ffffff;
+    color: #03B37C;
+}
+
+.cart-button {
+    display: inline-block;
+    padding: 2px;
+    width: 40%;
+    font-size: 16px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.cart-button:hover {
+    background-color: #ffffff;
+    color: #03B37C;
+}
