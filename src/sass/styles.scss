@@ -197,7 +197,7 @@ nav {
 .site-footer {
     background-color: $greedy-green;
     color: $greedy-white;
-    padding: 5%;
+    padding: 5% 5% 2%;
     align-content: center;
 }
 
@@ -354,11 +354,15 @@ nav {
     box-shadow: 5px 5px #ffffff;
 }
 
+.number:hover {
+    position: absolute;
+}
+
 .shop-button-link {
     text-decoration: none;
 }
 
-.shop-button-wrapper {}
+// .shop-button-wrapper {}
 
 .buy-button {
     display: inline-block;
