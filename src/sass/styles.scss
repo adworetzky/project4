@@ -338,6 +338,7 @@ nav {
 .bookclub-content-wrapper {
     margin: 0 auto;
     width: 80%;
+    
 }
 
 .bookclub-info-wrapper {
@@ -345,9 +346,15 @@ nav {
     width: 60%;
     vertical-align: top;
     padding: 1%;
-    margin: 1%;
+    margin: 1% auto;
+    @media (max-width:700px) {
+        display:block;
+    }
 }
-
+.author-bookclub{
+    margin: 10px 0;
+    font-size:20px;
+ }
 .bookclub-info-body-text {
     margin: 2% 0;
 }
@@ -361,6 +368,10 @@ nav {
     background-color: #03B37C;
     text-align: center;
     border-radius: 3%;
+    @media (max-width:700px) {
+        display:block;
+        margin:1% auto;
+    }
 }
 
 .book-title {
