@@ -335,7 +335,16 @@ nav {
 
 // bookclub specific sass
 
+.bookclub-info-wrapper{
+    display:inline-block;
+    width:60%;
+    vertical-align: top;
+    padding: 1%;
+    margin:1%;
+}
+
 .product-card {
+    display:inline-block;
     width: 15%;
     padding: 1% 1%;
     background-color: #03B37C;
@@ -368,7 +377,7 @@ nav {
     display: inline-block;
     width: 40%;
     padding: 2px;
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
     border: 2px solid #ffffff;
 }
@@ -380,9 +389,9 @@ nav {
 
 .cart-button {
     display: inline-block;
-    padding: 2px;
     width: 40%;
-    font-size: 16px;
+    padding: 2px;
+    font-size: 15px;
     color: #ffffff;
     border: 2px solid #ffffff;
 }
@@ -390,4 +399,19 @@ nav {
 .cart-button:hover {
     background-color: #ffffff;
     color: #03B37C;
+}
+
+.form-wrapper{
+    margin:2% auto;
+    text-align: center;
+    
+}
+label{
+    margin:10% 0 0;
+}
+input{
+    margin: 0 0 10px;
+}
+.submit{
+    align-self: center;
 }
