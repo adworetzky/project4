@@ -96,7 +96,8 @@ nav {
     text-decoration: none;
     color: $greedy-white;
 }
-.menu-icon{
+
+.menu-icon {
     height: 50px;
 }
 
@@ -161,6 +162,15 @@ nav {
     border-radius: 5%;
 }
 
+.schedule-button-link {
+    text-decoration: none;
+}
+
+.schedule-button-link:hover {
+    text-decoration: underline;
+    text-decoration-color: $greedy-white
+}
+
 .schedule-button {
     margin: auto;
     padding: 2% 0;
@@ -222,7 +232,7 @@ nav {
 
     .nav-button-li {
         display: inline-block;
-        margin: 0 3% 0;
+        margin: 5% 3% 0;
     }
 
     .u-button-reset {
