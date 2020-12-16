@@ -361,7 +361,7 @@ nav {
 
 .product-card {
     justify-self: right;
-    margin: 1%;
+    margin: 1% 0 1% 2%;
     display: inline-block;
     width: 200px;
     padding: 1% 1%;
@@ -424,10 +424,10 @@ nav {
 }
 
 .form-wrapper {
-    margin: 2% auto;
+    margin: 20px auto;
     text-align: center;
     background-color: $greedy-green;
-    padding: 1%;
+    padding: 10px 10px 20px;
 
 }
 
@@ -445,4 +445,21 @@ input {
 
 .submit {
     align-self: center;
+}
+
+// about page SASS
+
+.about-content-wrapper{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.about-heading{
+
+}
+
+.hours-list{
+    list-style-type: none;
+    
 }
