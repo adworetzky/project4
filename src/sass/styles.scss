@@ -150,7 +150,7 @@ nav {
 .location-wrapper {
     background-color: $greedy-green;
     padding: 5%;
-    margin:0 0 20px;
+    margin: 0 0 20px;
     text-align: center;
 }
 
@@ -339,7 +339,8 @@ nav {
 .bookclub-content-wrapper {
     margin: 0 auto;
     width: 80%;
-    
+    min-height: 400px;
+
 }
 
 .bookclub-info-wrapper {
@@ -348,20 +349,23 @@ nav {
     vertical-align: top;
     padding: 1%;
     margin: 1% auto;
+
     @media (max-width:700px) {
-        display:block;
+        display: block;
     }
 }
-.author-bookclub{
+
+.author-bookclub {
     margin: 10px 0;
-    font-size:20px;
- }
+    font-size: 20px;
+}
+
 .bookclub-info-body-text {
     margin: 2% 0;
 }
 
 .product-card {
-    justify-self: right;
+    float:right;
     margin: 1% 0 1% 2%;
     display: inline-block;
     width: 200px;
@@ -369,9 +373,11 @@ nav {
     background-color: #03B37C;
     text-align: center;
     border-radius: 3%;
+
     @media (max-width:700px) {
-        display:block;
-        margin:1% auto;
+        float:none;
+        display: block;
+        margin: 1% auto;
     }
 }
 
@@ -432,7 +438,7 @@ nav {
 
 }
 
-.subheading-form{
+.subheading-form {
     color: $greedy-white
 }
 
@@ -450,48 +456,59 @@ input {
 
 // about page SASS
 
-.about-content-wrapper{
+.about-content-wrapper {
     margin: 0 auto;
     width: 80%;
-    padding:1%
-    
+    padding: 1%
 }
 
-.about-heading{
-margin:10px auto 0;
-}
-.about-body-text{
-    margin:8px 0;
+.about-heading {
+    margin: 10px auto 0;
 }
 
-.hours-wrapper{
+.about-body-text {
+    margin: 8px 0;
+}
+
+.hours-wrapper {
     width: 40%;
     display: inline-block;
     border-radius: 3%;
-    @media (max-width:655px){
+
+    @media (max-width:655px) {
         display: block;
-        margin:0 auto;
+        margin: 0 auto;
         border-radius: 3%;
     }
-    
+
 }
-.hours-list{
+
+.hours-list {
     list-style-type: none;
-    margin: 0;;
-    padding:0;
+    margin: 0;
+    ;
+    padding: 0;
 }
 
 // 404 page SASS
-.subheading-404{
-width:40%;
+.error-wrapper {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
 }
 
-.quote{
+.subheading-404 {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.quote {
     margin: 20px 0;
 }
 
-.lost-book-icon{
-    display:block;
-    width:40%;
-    margin:20% auto;
+.lost-book-icon {
+    display: block;
+    width: 40%;
+    margin: 20% auto;
 }
