@@ -32,7 +32,6 @@ p {
     margin: 0;
 }
 
-
 nav {
     background-color: $greedy-green;
     display: grid;
@@ -48,13 +47,12 @@ nav {
 
 .site-wrapper {
     margin: 0 auto;
-
 }
 
 .logo {
+    align-self: left;
     display: block;
     grid-area: logo;
-    align-self: left;
     height: 100%;
     max-height: 100%;
 }
@@ -76,30 +74,26 @@ nav {
 }
 
 .u-button-reset {
-    grid-area: menu-button;
     align-self: center;
+    background-color: $greedy-green;
+    background-image: url("https://cdn.glitch.com/c0e9f49e-d413-41e8-bfbf-b48a0b1c3f14%2Fnoun_hamburger%20menu_3655955.png?v=1608139249815");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    grid-area: menu-button;
     height: 80px;
     text-decoration: none;
-    border: none;
-    background-color: $greedy-green;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    background-image: url("https://cdn.glitch.com/c0e9f49e-d413-41e8-bfbf-b48a0b1c3f14%2Fnoun_hamburger%20menu_3655955.png?v=1608139249815");
-
 }
 
 .nav-button-link {
+    color: $greedy-white;
     display: inline;
     text-decoration: none;
-    color: $greedy-white;
 }
 
 .menu-icon {
     height: 50px;
 }
-
-
 
 .icon-wrapper {
     @media (max-width:669px) {
@@ -109,9 +103,8 @@ nav {
 
 .slider-banner {
     background-image: url("https://cdn.glitch.com/c0e9f49e-d413-41e8-bfbf-b48a0b1c3f14%2FBook%20Stock.png?v=1605806687072");
-    width: 100%;
     height: 100%;
-
+    width: 100%;
 }
 
 .banner-img {
@@ -119,19 +112,19 @@ nav {
 }
 
 .title-over-img {
-    font-weight: 900;
-    font-size: 36px;
-    position: absolute;
     color: $greedy-white;
-    top: 90px;
+    font-size: 36px;
+    font-weight: 900;
     left: 10px;
     margin: 0;
+    position: absolute;
+    top: 90px;
 }
 
 .slider-img {
     display: inline;
-    width: 100px;
     margin: 60px 1% 2%;
+    width: 100px;
 }
 
 .subheading {
@@ -147,18 +140,18 @@ nav {
 
 .location-wrapper {
     background-color: $greedy-green;
-    padding: 5%;
     margin: 0 0 20px;
+    padding: 5%;
     text-align: center;
 }
 
 .location-card {
-    display: inline-block;
     background-color: $greedy-white;
-    margin: 0 5% 5%;
-    width: 240px;
-    padding: 10px;
     border-radius: 5%;
+    display: inline-block;
+    margin: 0 5% 5%;
+    padding: 10px;
+    width: 240px;
 }
 
 .schedule-button-link {
@@ -167,17 +160,17 @@ nav {
 
 .schedule-button-link:hover {
     text-decoration: underline;
-    text-decoration-color: $greedy-white
+    text-decoration-color: $greedy-white;
 }
 
 .schedule-button {
+    background-color: $greedy-green;
+    border-radius: 5px;
+    color: $greedy-white;
     margin: auto;
+    max-width: 220px;
     padding: 2% 0;
     text-align: center;
-    max-width: 220px;
-    background-color: $greedy-green;
-    color: $greedy-white;
-    border-radius: 5px;
 }
 
 .location-card-info-text {
@@ -185,8 +178,8 @@ nav {
 }
 
 .info-banner-text {
-    font-weight: 700;
     font-size: 20px;
+    font-weight: 700;
     margin: 5% auto;
 }
 
@@ -195,10 +188,10 @@ nav {
 }
 
 .site-footer {
+    align-content: center;
     background-color: $greedy-green;
     color: $greedy-white;
     padding: 5% 5% 2%;
-    align-content: center;
 }
 
 .footer-nav {
@@ -206,6 +199,11 @@ nav {
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+.footer-nav-link {
+    color: $greedy-white;
+    text-decoration: none;
 }
 
 .footer-location-wrapper {
@@ -221,14 +219,14 @@ nav {
 
     .nav-buttons {
         grid-area: nav-buttons;
-        visibility: visible;
         list-style-type: none;
+        visibility: visible;
     }
 
     .nav-button-link {
+        color: $greedy-white;
         display: inline;
         text-decoration: none;
-        color: $greedy-white;
     }
 
     .nav-button-li {
@@ -241,30 +239,30 @@ nav {
     }
 
     .icon-wrapper {
-        grid-area: menu-button;
         align-self: center;
+        grid-area: menu-button;
         margin: 0 auto;
     }
 
     .icons {
-        // grid-area: menu-button;
+        align-self: center;
         display: inline;
-        // align-self: center;
+        grid-area: menu-button;
     }
 
     .slider-img {
         display: inline;
-        width: 100px;
         margin: 60px 1% 2%;
+        width: 100px;
     }
 
     .location-card {
-        display: inline-block;
         background-color: $greedy-white;
-        margin: 0 5%;
-        width: 240px;
-        padding: 10px;
         border-radius: 5%;
+        display: inline-block;
+        margin: 0 5%;
+        padding: 10px;
+        width: 240px;
     }
 }
 
@@ -308,7 +306,6 @@ nav {
         width: 100px;
         margin: 60px 1% 2%;
     }
-
 }
 
 .slider-img-3 {
@@ -319,7 +316,6 @@ nav {
         width: 100px;
         margin: 60px 1% 2%;
     }
-
 }
 
 .slider-img-4 {
@@ -330,7 +326,6 @@ nav {
         width: 100px;
         margin: 60px 1% 2%;
     }
-
 }
 
 .slider-img-5 {
@@ -341,16 +336,14 @@ nav {
         width: 100px;
         margin: 60px 1% 2%;
     }
-
 }
 
 // bookclub specific sass
 
 .bookclub-content-wrapper {
     margin: 0 auto;
-    width: 80%;
     min-height: 400px;
-
+    width: 80%;
 }
 
 .bookclub-info-wrapper {
@@ -366,8 +359,8 @@ nav {
 }
 
 .author-bookclub {
-    margin: 10px 0;
     font-size: 20px;
+    margin: 10px 0;
 }
 
 .bookclub-info-body-text {
@@ -391,14 +384,14 @@ nav {
 }
 
 .book-title {
-    font-weight: 700;
     color: #ffffff;
+    font-weight: 700;
 }
 
 .book-img {
+    box-shadow: 5px 5px #ffffff;
     max-height: 100%;
     max-width: 100%;
-    box-shadow: 5px 5px #ffffff;
 }
 
 .number:hover {
@@ -409,15 +402,13 @@ nav {
     text-decoration: none;
 }
 
-// .shop-button-wrapper {}
-
 .buy-button {
-    display: inline-block;
-    width: 40%;
-    padding: 2px;
-    font-size: 15px;
-    color: #ffffff;
     border: 2px solid #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 2px;
+    width: 40%;
 }
 
 .buy-button:hover {
@@ -426,12 +417,12 @@ nav {
 }
 
 .cart-button {
-    display: inline-block;
-    width: 40%;
-    padding: 2px;
-    font-size: 15px;
-    color: #ffffff;
     border: 2px solid #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 2px;
+    width: 40%;
 }
 
 .cart-button:hover {
@@ -440,15 +431,14 @@ nav {
 }
 
 .form-wrapper {
-    margin: 20px auto;
-    text-align: center;
     background-color: $greedy-green;
+    margin: 20px auto;
     padding: 10px 10px 20px;
-
+    text-align: center;
 }
 
 .subheading-form {
-    color: $greedy-white
+    color: $greedy-white;
 }
 
 label {
@@ -467,8 +457,8 @@ input {
 
 .about-content-wrapper {
     margin: 0 auto;
+    padding: 1%;
     width: 80%;
-    padding: 1%
 }
 
 .about-heading {
@@ -500,15 +490,15 @@ input {
 
 // 404 page SASS
 .error-wrapper {
-    width: 80%;
     margin: 20px auto;
     text-align: center;
+    width: 80%;
 }
 
 .subheading-404 {
     display: inline-block;
-    width: 40%;
     margin: 0 auto;
+    width: 40%;
 }
 
 .quote {
@@ -517,6 +507,6 @@ input {
 
 .lost-book-icon {
     display: block;
-    width: 40%;
     margin: 5% auto 0;
+    width: 40%;
 }
