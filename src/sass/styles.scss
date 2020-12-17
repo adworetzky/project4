@@ -68,6 +68,7 @@ nav {
     @media (max-width: 669px) {
         background-color: $greedy-green;
         position: absolute;
+        width:100px;
         top: 80px;
         right: 0;
 
@@ -95,9 +96,12 @@ nav {
 
 .nav-button-link {
     display: inline;
-    margin: 5px;
     text-decoration: none;
     color: $greedy-white;
+
+    @media (max-width:670px) {
+        margin: 10px;
+    }
 }
 
 .menu-icon {
