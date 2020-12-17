@@ -150,6 +150,7 @@ nav {
 .location-wrapper {
     background-color: $greedy-green;
     padding: 5%;
+    margin:0 0 20px;
     text-align: center;
 }
 
@@ -233,7 +234,7 @@ nav {
 
     .nav-button-li {
         display: inline-block;
-        margin: 5% 3% 0;
+        margin: 30px 3% 0;
     }
 
     .u-button-reset {
@@ -459,10 +460,19 @@ input {
 .about-heading{
 margin:10px auto 0;
 }
+.about-body-text{
+    margin:8px 0;
+}
 
 .hours-wrapper{
     width: 40%;
     display: inline-block;
+    border-radius: 3%;
+    @media (max-width:655px){
+        display: block;
+        margin:0 auto;
+        border-radius: 3%;
+    }
     
 }
 .hours-list{
