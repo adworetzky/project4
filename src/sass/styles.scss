@@ -34,6 +34,7 @@ p {
 }
 
 
+
 nav {
     background-color: $greedy-green;
     display: grid;
@@ -207,6 +208,11 @@ nav {
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: $greedy-white;
 }
 
 .footer-location-wrapper {
