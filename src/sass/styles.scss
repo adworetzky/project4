@@ -452,14 +452,21 @@ input {
 .about-content-wrapper{
     margin: 0 auto;
     width: 80%;
+    padding:1%
     
 }
 
 .about-heading{
-
+margin:10px auto 0;
 }
 
+.hours-wrapper{
+    width: 40%;
+    display: inline-block;
+    
+}
 .hours-list{
     list-style-type: none;
-    
+    margin: 0;;
+    padding:0;
 }
